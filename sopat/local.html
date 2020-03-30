@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+   <title>local</title>
+   <link rel="stylesheet" href="
+   C:\Users\lenovo g50\Desktop\sopat\style.css">
+   
+   <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+   
+    
+   </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="SOPAT1.jpg" style="width:50px;height:50px;"></a>
+              </div>
+              <ul class="nav navbar-nav" id="ulNav">
+                <li><a href="zone.html">zone Geographique</a></li>
+                <li><a href="local.html">local</a></li>
+                <li><a href="tyc.html">type de contrat</a></li>
+              </ul>
+            </div>
+          </nav>
+       
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="chikos.png" alt="Los Angeles" style="width:100%;height:900px;">
+          </div>
+      
+          <div class="item">
+            <img src="mliha.jpg" alt="Chicago" style="width:100%;height:900px;">
+          </div>
+      
+          <div class="item">
+            <img src="SOPAT1.jpg" alt="New York" style="width:100%;height:900px;">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+        <center>
+            <div id="cover">
+                <h2 >Local</h2>
+            </div>
+            <form name="forum">
+         <div class="che">
+            <h4>compteur</h4>
+            <input type="checkbox"name="compteur" > 
+                <label>soned</label>
+            <input type="checkbox"name="compteur" >
+                <label> steg</label>
+            </div>
+            <br>
+            <div class="che">
+                <h4>Visiblte</h4>
+                <input type="checkbox" name="visiblté" > 
+                    <label>facade en retrait</label>
+                <input type="checkbox"name="visiblté" >
+                    <label> denivellation du trottoir</label>
+                    <input type="checkbox" name="visiblté"> 
+                    <label>mobilier urbain genant la vue</label>
+                <input type="checkbox"name="visiblté" >
+                    <label> autre obstacle</label>
+               </div>
+               <br>
+               <textarea class="textaS" cols="50" rows="4">cite autre obstacle : </textarea>
+            <h4>Concurrence sur 200m²</h4>
+        <select class="list" id="Concurrence">
+            <option value="1">vente vif</option>
+            <option value="2">enseignes</option>
+            <option value="3">pas de concurrence</option>
+        </select>
+        <br>
+        <textarea class="textaS" cols="50" rows="4">cite les concurrents : </textarea>
+         
+           <h4>Type  de Contrat</h4>
+        <select class="list" id="contrat">
+            <option>location</option>
+            <option>propriétaire</option>
+            <option>fond de commerce</option>
+        </select>
+        <h4>Loyer Mensuel</h4>
+        <select class="list" id="loyer">
+            <option>250Dt ou moin</option>
+            <option>250Dt<>500dt</option>
+            <option>plus que 500DT</option>
+        </select>
+        <h4>surface </h4>
+        <select class="list" id="surface">
+            <option>25m² ou moin</option>
+            <option>26m²<>35m²</option>
+            <option>plus que 35m²</option>
+        </select>
+    </form>
+        <br>   
+        <button onclick="valider()" id="valider">valider </button>
+        
+        </center>
+    </body>
+    <script src="C:\Users\lenovo g50\Desktop\sopat\validation.js">
+       
+    </script>
+    <script src="firebase.js"></script>
+</html>

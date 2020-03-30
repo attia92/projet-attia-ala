@@ -1,0 +1,72 @@
+
+#cover h2
+{
+    margin-top:5px;
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    color: rgb(22, 13, 13);
+    position: relative; /*
+        Un élément positionné de façon relative est un élément dont la propriété 
+        de position calculée est relative. Dans ce cas, les propriétés top ou bottom 
+        indiquent le décalage vertical à appliquer et left ou right indiquent 
+        le décalage horizontal. (https://developer.mozilla.org/fr/docs/Web/CSS/position)
+    */
+    top: 10%; /*remove position:relative and this property will not have any effect*/
+    text-align: center;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+}
+.textaS
+{
+    margin-top: 30px;
+    border-radius: 5px;
+    
+    
+}
+.che
+{
+    display: inline-block;
+    
+}
+
+.list
+{
+background-color: black;
+width: 25%;
+color: white;
+}
+body{
+    Background-image:   linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+
+    margin : 0 ; /* delete space ly deeyer bel page*/
+}
+ 
+
+button
+{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 10px;
+}
+.tyc-form
+{
+    margin: 30px 0;
+}
+
+.input-groupe{
+    text-align: center;
+    color: rgb(3, 3, 3);
+}
+
+.text{
+    display: block;
+    margin: 10px auto;
+    width: 20%;
+    height: 20px;
+    border-radius:5px ;
+    color: black;
+}
+
+.contact-form{
+    margin: 30px 0 ;
+}
